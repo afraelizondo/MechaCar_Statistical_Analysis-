@@ -8,9 +8,10 @@ The slope of the linear model is not considered to be zero, this is due to the f
 This linear model predicts mpg of MechaCar prototypes decently, because the value of the residual standard error is 0.7149. Since it is not 0, it is more likely that it can predict some of the outcomes, but not the complete diagnostic for this model. 
 
 The coefficients that provided non-random amount of variance to the mpg values in the dataset are:
-- Ground clearance
 - Vehicle length
+- Ground clearance
 
+If this model is performed without these two coefficients, it would get a bad fit.
 
 <img width="378" alt="Screen Shot 2023-01-30 at 7 41 32 PM" src="https://user-images.githubusercontent.com/113856917/215639019-7bccf4fa-42ae-4288-a61d-4c39776993a0.png">
 
@@ -27,7 +28,9 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+The value of t-test statistic is -1.8931, while p-value is 0.06. With these two values we can conclude that the result is to fail to reject the null hypothesis. There is a slightly statistical difference between the two observed means, due to the fact that the p-value is greater than 0.5. 
 
+The alternative hypothesis states "True mean is not equal to 1500" and the sample mean has a value of 1498.78.
 
 <img width="328" alt="Screen Shot 2023-01-30 at 7 52 44 PM" src="https://user-images.githubusercontent.com/113856917/215639481-ee63f6a7-2ff6-442f-bbf9-72564f8dbd81.png">
 
