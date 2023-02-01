@@ -3,11 +3,12 @@
 
 ## Linear Regression to Predict MPG
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+The coefficients that provided a non-random amount of variance to the mpg values in the dataset are:
+- 
 
-Is the slope of the linear model considered to be zero? Why or why not?
+The slope of the linear model is not considered to be zero, this is due to the fact that the p-value is 5.35 x 10-11, so much smaller than the assumed level of significance, which means there is sufficient evidence to reject the null hypothesis, coming to the conclusion that the slope of the lineal model is not zero. 
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+This linear model predicts mpg of MechaCar prototypes decently, because the value of the residual standard error is 0.7149, since it is not 0, it is more likely that it can predict some of the outcomes, but not the complete diagnostic for this model. 
 
 <img width="378" alt="Screen Shot 2023-01-30 at 7 41 32 PM" src="https://user-images.githubusercontent.com/113856917/215639019-7bccf4fa-42ae-4288-a61d-4c39776993a0.png">
 
