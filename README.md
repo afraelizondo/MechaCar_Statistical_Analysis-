@@ -28,7 +28,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 The value of t-test statistic is -1.8931, while p-value is 0.06. The p-value is above the assumed significance level. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm the mean of the population and samples are not statistically different.
 
-With these two values we can conclude that the result is to fail to reject the null hypothesis, while the alternative hypothesis states "True mean is not equal to 1500".
+With these two values we can conclude that the result is confirming the null hypothesis, while the alternative hypothesis states "True mean is not equal to 1500".
 
 <img width="328" alt="Screen Shot 2023-01-30 at 7 52 44 PM" src="https://user-images.githubusercontent.com/113856917/215639481-ee63f6a7-2ff6-442f-bbf9-72564f8dbd81.png">
 
