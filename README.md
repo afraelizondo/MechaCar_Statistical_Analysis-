@@ -26,8 +26,6 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
 The value of t-test statistic is -1.8931, while p-value is 0.06. With these two values we can conclude that the result is to fail to reject the null hypothesis. There is a slightly statistical difference between the two observed means, due to the fact that the p-value is greater than 0.5. 
 
 The alternative hypothesis states "True mean is not equal to 1500" and the sample mean has a value of 1498.78.
