@@ -41,14 +41,18 @@ With these two values, we can assume that the alternative hypothesis is false, a
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+A study that can quantify how the MechaCar performs against the competition would include the following metrics of interest for the potential consumers:
+1. Cost: A tangible criteria that works with budget and financing options available. 
+2. Funcionality: The way a vehicle performs, determinates it ultimate value. 
+3. Fuel economy: Such an important consideration; a comparation of mileage ratings among others in the same category. Combining the two main figures, city and higway. 
 
-In your description, address the following questions:
+The metrics that are gonna be tested are: Condition vs price; milleage vs performance; and finally, kilometers traveled vs liter of gas price.
 
-What metric or metrics are you going to test?
+The null hypothesis is that mean cost, functionality and fuel economy is equal in all car companies. While the alternative hypothesis states that there is at least one mean different from all other groups. 
 
-What is the null hypothesis or alternative hypothesis?
+The statistical test that would be used to test the hypothesis, would be an ANOVA TEST, because it can show if there is a statistical difference between the distribution means from multiple samples(vehicles) and it uses categorical and continous data. Specifically three one-way ANOVA, due to the fact that we are evaluating three different metrics, this is used to test the means of a single dependent variable across a single independent variable with multiple groups.
 
-What statistical test would you use to test the hypothesis? And why?
-
-What data is needed to run the statistical test?
+The data that is needed to run the statistical test, has to have the following characterstics:
+- The dependent variable is numerical and continuous, and the independent variables are categorical.
+- The dependent variable is considered to be normally distributed.
+- The variance among each group should be very similar.
