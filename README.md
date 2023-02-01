@@ -18,7 +18,7 @@ If this model is performed without these two coefficients, it would get a bad fi
 
 ## Summary Statistics on Suspension Coils
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data meets this design specification for all manufacturing lots in total with a value of 62.29. Talking about each lot individually, lot 1 and lot 2 do meet these especifications, while lot 3 doesn't having a variance of 170.29.
 
 <img width="248" alt="Screen Shot 2023-01-30 at 7 50 31 PM" src="https://user-images.githubusercontent.com/113856917/215639212-bfeef2d5-b9b2-447f-9a41-46f0904cd60c.png">
 
@@ -28,7 +28,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 The value of t-test statistic is -1.8931, while p-value is 0.06. The p-value is above the assumed significance level. Therefore, we would state that there is not enough evidence to reject the null hypothesis and we can confirm the mean of the population and samples are not statistically different.
 
-With these two values, we can assume that th=he alternative hypothesis is false, as it is stating "True mean is not equal to 1500".
+With these two values, we can assume that the alternative hypothesis is false, as it is stating "True mean is not equal to 1500".
 
 <img width="328" alt="Screen Shot 2023-01-30 at 7 52 44 PM" src="https://user-images.githubusercontent.com/113856917/215639481-ee63f6a7-2ff6-442f-bbf9-72564f8dbd81.png">
 
